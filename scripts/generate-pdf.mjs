@@ -1,0 +1,8 @@
+import { chromium } from '@playwright/test';
+import { mkdir } from 'node:fs/promises';
+const browser = await chromium.launch({ executablePath: process.env.CAREETY_CHROMIUM_PATH || '/usr/bin/chromium', args:['--no-sandbox'] });
+const page=await browser.newPage();
+await page.setContent(`<!doctype html><html lang="ja"><meta charset="utf-8"><style>body{font-family:'Noto Sans CJK JP','Noto Sans JP',sans-serif;color:#1b2232;margin:42px;font-size:13px;line-height:1.9}h1{color:#0158c2;font-size:26px}h2{font-size:17px;padding:9px 14px;background:#eff7fe;color:#0158c2;margin-top:25px}li{margin:9px 0;list-style:none}ul{padding-left:5px}.footer{font-size:10px;color:#596579;margin-top:28px;border-top:1px solid #ddecf8;padding-top:14px}.note{padding:15px;background:#f7fbff}b{color:#0158c2}</style><h1>Careety. 面接準備チェックリスト</h1><p>準備を味方に、自分の言葉で伝えよう。<br>氏名：__________________　面接日：__________________</p><h2>01 面接の前に</h2><ul><li>□ 企業の事業・仕事内容・採用条件を公式サイトで確認</li><li>□ 自己紹介と志望理由を、自分の言葉で練習</li><li>□ ガクチカを「背景・行動・学び」で整理</li><li>□ 企業に聞きたいことを2〜3つ準備</li><li>□ 日程・会場・移動経路・担当者の連絡先を確認</li></ul><h2>02 当日の確認</h2><ul><li>□ 服装・持ち物・受付時間を確認</li><li>□ オンライン面接は回線・カメラ・音声を確認</li><li>□ 質問を最後まで聞き、結論から伝える</li><li>□ 分からない質問は、意味を確認してから答える</li></ul><h2>03 面接のあとに</h2><ul><li>□ 聞かれた質問、答えにくかった点をメモ</li><li>□ 企業の印象と、自分の希望に合う点を記録</li><li>□ 次の面接に向けて練習することを1つ決める</li></ul><p class="note"><b>Careety POINT</b><br>暗記した答えより、経験の要点を整理しましょう。面接は、企業と自分が互いの理解を深める時間です。</p><p class="footer">デザイン確認用のサンプル資料です。選考結果を保証するものではありません。<br>Careety / 株式会社EN　大学生活も、就活も。</p></html>`);
+await page.pdf({path:'public/downloads/careety-interview-checklist.pdf',format:'A4',printBackground:true});
+await browser.close();
+console.log('Generated printable Japanese PDF.');
