@@ -12,3 +12,8 @@
 | 就活エージェント | [表示](agents-desktop.png) | [表示](agents-mobile.png) |
 | Careetyについて | [表示](about-desktop.png) | [表示](about-mobile.png) |
 | お問い合わせ | [表示](contact-desktop.png) | [表示](contact-mobile.png) |
+
+## TOP別案（ビジュアル重視）
+
+- [PC 1440px](top-visual-desktop.png)
+- [スマホ 320px](top-visual-mobile.png)

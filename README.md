@@ -66,3 +66,9 @@ Wix上のサイト公開やCMS接続は行っていません。React版はデザ
 `.github/workflows/pages.yml`はmainへのpushでビルド・単体テスト・Pagesデプロイを行います。初回のみGitHubのSettings → Pages → Build and deployment → SourceをGitHub Actionsに設定してください。GitHub APIのPages管理権限が利用可能なら、エージェント側から同じ設定を行えます。Actionsが無効な場合はリポジトリ設定で有効化が必要です。
 
 プレビュー全ページにサンプル表示を付けています。Wixの正式公開とは別です。
+
+## TOP別案（写真中心）
+
+公開プレビュー： https://yasuhironabeta4646-cpu.github.io/careety/#/top-visual
+
+元のTOPを維持した比較用のページ。大きな人物写真＋注目記事、新着5件、おすすめ4件、8カテゴリー（全13へ展開）、学年別ロードマップ、直接ダウンロード資料、補助的な相談・LINE導線。写真はAI生成のサンプルです。PC1440px・スマホ320px/390pxで画像読み込み・横はみ出し・検索・カテゴリー移動・ダウンロードを確認。WixとFigmaに移す場合も共通のブランドトークンとHeader/Footerを再利用します。
