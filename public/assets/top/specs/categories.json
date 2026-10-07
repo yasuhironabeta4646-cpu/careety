@@ -1,0 +1,54 @@
+[
+  {
+    "slug": "getting-started",
+    "name": "就活の始め方"
+  },
+  {
+    "slug": "self-analysis",
+    "name": "自己分析"
+  },
+  {
+    "slug": "es",
+    "name": "ES・志望動機"
+  },
+  {
+    "slug": "manners",
+    "name": "就活マナー"
+  },
+  {
+    "slug": "business-rules",
+    "name": "ビジネスルール"
+  },
+  {
+    "slug": "interview",
+    "name": "面接対策"
+  },
+  {
+    "slug": "tests",
+    "name": "WEBテスト・適性検査"
+  },
+  {
+    "slug": "industry",
+    "name": "仕事・業界研究"
+  },
+  {
+    "slug": "company",
+    "name": "企業研究"
+  },
+  {
+    "slug": "internship",
+    "name": "インターン"
+  },
+  {
+    "slug": "media",
+    "name": "就活サイト・媒体"
+  },
+  {
+    "slug": "agents",
+    "name": "就活エージェント"
+  },
+  {
+    "slug": "offer",
+    "name": "内定・選考対策"
+  }
+]

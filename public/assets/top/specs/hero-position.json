@@ -1,0 +1,8 @@
+{
+  "objectFit": "cover",
+  "objectPosition": "50% 0%",
+  "maskImage": "linear-gradient(90deg, rgba(0, 0, 0, 0), rgb(0, 0, 0) 14%, rgb(0, 0, 0) 82%, rgba(0, 0, 0, 0))",
+  "displayWidth": 1267.1875,
+  "displayHeight": 510,
+  "left": "-72px"
+}

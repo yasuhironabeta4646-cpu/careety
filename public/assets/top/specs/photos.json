@@ -1,0 +1,56 @@
+[
+  {
+    "name": "01-hero-student",
+    "use": "メインビジュアルの女子大学生",
+    "width": 1536,
+    "height": 1024,
+    "png": "photos/01-hero-student.png",
+    "jpeg": "photos/01-hero-student.jpg",
+    "source": "AI-generated original; no upscaling"
+  },
+  {
+    "name": "02-campus-group",
+    "use": "注目記事・相談導線の大学生グループ",
+    "width": 1536,
+    "height": 1024,
+    "png": "photos/02-campus-group.png",
+    "jpeg": "photos/02-campus-group.jpg",
+    "source": "AI-generated original; no upscaling"
+  },
+  {
+    "name": "03-career-student",
+    "use": "就活ガイドの記事写真",
+    "width": 768,
+    "height": 512,
+    "png": "photos/03-career-student.png",
+    "jpeg": "photos/03-career-student.jpg",
+    "source": "AI-generated original; no upscaling"
+  },
+  {
+    "name": "04-worksheets",
+    "use": "ES・資料の記事写真",
+    "width": 768,
+    "height": 512,
+    "png": "photos/04-worksheets.png",
+    "jpeg": "photos/04-worksheets.jpg",
+    "source": "AI-generated original; no upscaling"
+  },
+  {
+    "name": "05-interview",
+    "use": "面接の記事写真",
+    "width": 768,
+    "height": 512,
+    "png": "photos/05-interview.png",
+    "jpeg": "photos/05-interview.jpg",
+    "source": "AI-generated original; no upscaling"
+  },
+  {
+    "name": "06-city",
+    "use": "業界研究の記事写真",
+    "width": 768,
+    "height": 512,
+    "png": "photos/06-city.png",
+    "jpeg": "photos/06-city.jpg",
+    "source": "AI-generated original; no upscaling"
+  }
+]
