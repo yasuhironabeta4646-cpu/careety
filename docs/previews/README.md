@@ -1,6 +1,6 @@
 # 8ページのデザイン確認
 
-1440px（PC）・390px（スマホ）のブラウザーで実装を撮影した画像です。
+1440px（PC）・320px（スマホ）のブラウザーで実装を撮影した画像です。
 
 | ページ | PC | スマホ |
 |---|---|---|
@@ -13,7 +13,7 @@
 | Careetyについて | [表示](about-desktop.png) | [表示](about-mobile.png) |
 | お問い合わせ | [表示](contact-desktop.png) | [表示](contact-mobile.png) |
 
-## TOP別案（ビジュアル重視）
+## 採用前のTOP検討画像（参考）
 
 - [PC 1440px](top-visual-desktop.png)
 - [スマホ 320px](top-visual-mobile.png)

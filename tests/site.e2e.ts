@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test';
 const routes = ['/', '/articles','/articles/es-writing','/category/es','/downloads','/agents','/about','/contact'];
-for(const width of [1440,390]) {
+for(const width of [1440,390,320]) {
  test(`8 pages render with shared layout at ${width}px`,async({page})=>{
   await page.setViewportSize({width,height:950});
   const errors:string[]=[];page.on('pageerror',e=>errors.push(e.message));
